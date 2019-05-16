@@ -1,0 +1,25 @@
+{
+    "name" : "zmhfly/sapi",
+    "description" : "a php framework extension",
+    "minimum-stability" : "stable",
+    "license" : "proprietary",
+    "authors" : [
+        {
+            "name" : "zmh",
+            "email" : "zmhfly8@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "^6.3@dev",
+        "symfony/console": "^3.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Zmhfly\\SApi\\":"src/"
+        }
+    },
+    "bin": [
+        "sapi"
+    ]
+}
